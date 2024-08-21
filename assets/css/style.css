@@ -3,21 +3,22 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  font-size: 17px;
+}
 body {
   color: #926239;
-  font-size: 17px;
   line-height: 1.6;
   text-align: center;
 }
-.header-background-img {
-  height: 100vh;
+.header {
+  min-height: 100vh;
   background-image: url(../images/beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 35vh; 
+  padding-top: 35vh;
 }
-
 .header-title {
   font-size: 50px;
   font-weight: bold;
@@ -25,7 +26,7 @@ body {
 }
 .header-p {
   font-size: 20px;
-  padding: 10px;
+  margin: 10px;
 }
 .link {
   display: inline-block;
@@ -35,37 +36,20 @@ body {
   border-radius: 10px;
   padding: 10px 20px;
   margin-top: 10px;
-  background-color: #fff;
   text-decoration: none;
 }
-.main-section-1 {
-  color: #fff;
-  background-color: #926239;
-  padding: 20px;
-}
-.main-section-2 {
+.section {
   padding: 20px;
 }
 .footer {
   text-align: initial;
 }
-.footer-section-1 {
-  display: inline-block;
-  width: 33%;
+.alt-section-colors {
   background-color: #926239;
   color: #fff;
-  padding: 20px;
 }
-.footer-section-2 {
-  display: inline-block;
+.small-section{
   display: inline-block;
   width: 33%;
-  padding: 20px;
 }
-.footer-section-3 {
-  display: inline-block;
-  background-color: #926239;
-  color: #fff;
-  width: 33%;
-  padding: 20px;
-}
+
